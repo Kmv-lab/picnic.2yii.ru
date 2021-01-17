@@ -1,0 +1,461 @@
+[ckid=page-page_content]>div{display: inline!important;}
+
+.image_thumb{
+    border: 2px solid #C2C2C2;
+    padding: 20px 0px;
+    background: #EBEBEB;
+}
+.image_thumb .img-thumbnail{
+    padding: 1px;
+    background-color: white;
+}
+#dialog-thumb .jcrop-keymgr{
+    display:none;
+}
+#dialog-thumb .modal-body{overflow: auto;}
+
+.resolution_input{position: relative;
+    z-index: 10;
+    background: white;margin-left: 200px;}
+
+.container-elem-main-page{
+    padding: 20px;
+}
+
+.name-type-prioryty{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.name-type-prioryty div{
+    width: 30%;
+}
+
+div.form-add-new-block{
+    background: #cccc;
+}
+
+.form-add-new-block>form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-add-new-block .flex-box-adm{
+    padding-bottom: 20px;
+}
+
+.form-add-new-block .flex-box-adm>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-add-new-block .flex-box-adm>div>label{
+    padding-right: 10px;
+}
+
+.elem-adm-block{
+    margin-bottom: 20px;
+    border: 1px solid #888888;
+    padding: 30px 20px;
+    background: #61444488;
+    position: relative;
+}
+
+.is-active, div.green{
+    background: #44614488;
+}
+
+.block-priority-and-active>div:first-child{
+    display: flex;
+}
+
+.btn-delete-block{
+    color: #0a0a0a;
+    background: #de757e;
+    order: 1;
+}
+
+.glyphicon::before{
+    padding: 5px;
+}
+
+.img-main-san{
+    width: 20%;
+    display: block;
+    padding-bottom: 30px;
+}
+
+.modal-body>#target{
+    width: 100%;
+}
+
+.img-for-main-page{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+}
+
+.block-adm-to-edit{
+    padding: 20px 0;
+}
+
+.flex-box-adm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.old-desc{
+    padding: 5px;
+    background: #fff;
+}
+
+.CodeMirror, .container-elem-main-page form input{
+    border: 1px solid #aaa;
+}
+
+.elems-for-change>.container-elem-main-page:nth-child(odd){
+    background: #cccc;
+}
+
+.elems-for-change>.container-elem-main-page:nth-child(even){
+    background: #dddc;
+}
+
+.form-new-inform-block{
+    margin-top: 50px;
+}
+
+.form-new-inform-block .flex-box-adm{
+
+}
+
+.form-new-inform-block .flex-box-adm>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+}
+
+.form-new-inform-block .flex-box-adm>div input{
+    width: 90%;
+}
+
+.block-advices{
+    padding: 30px 0 100px 0;
+}
+
+.checkbox-block{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    width: 60%;
+}
+
+.elem-checkbox {
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: relative;
+}
+
+.container-elems img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.container-elems label {
+    padding-top: 5px;
+    width: 100%;
+}
+
+.container-elems input {
+    float: left;
+}
+
+.elem-form{
+    margin-bottom: 10px;
+}
+
+.elem-checkbox>span{
+    margin-top: 110%;
+}
+
+.container-elems{
+    background: #ebebeb;
+    border: solid #c2c2c2 1px;
+}
+
+.elem-checkbox>input[type="checkbox"]{
+    position: absolute;
+    z-index: 9;
+    width: 30px;
+    height: 30px;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.elem-checkbox input[type="checkbox"] + img {
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    padding: 5px;
+}
+
+.options-exc div.elem-checkbox img{
+    background: #205885;
+}
+
+.new-price-block{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.new-price-block>*{
+    display: flex;
+    flex-direction: column;
+}
+
+.dates-price-block{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.dates-price-block>*{
+    display: flex;
+    align-items: baseline;
+}
+
+.new-price-elem>*{
+    margin-left: 10px;
+}
+
+.new-price-days-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.new-price-days-block>*{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.labels-for-checkbox>span{
+    display: block;
+    width: 10%;
+}
+
+.new-price-days-block>.checkboxes>div{
+    width: 10%;
+}
+
+.new-price-days-block>.checkboxes{
+    flex-direction: row;
+}
+
+.new-price-prices-block{
+    display: flex;
+    justify-content: space-around;
+}
+
+.new-price-prices-block>.price-elem{
+    width: 30%;
+}
+
+.new-price-btn{
+    width: 20%;
+    margin-left: 40%;
+}
+
+.new-price-block-small{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.existing-price>div:nth-child(odd){
+    background: #cccc;
+}
+
+.existing-price{
+    margin-top: 10px;
+}
+
+.timetable-new-block{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.timetable-name-icon-time{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.timetable-name-icon-time>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.timetable-name{
+    width: 50%;
+}
+
+.timetable-icon{
+    width: 25%;
+}
+
+.timetable-time{
+    width: 20%;
+}
+
+.timetable-new-block .new-price-btn{
+    width: 40%;
+    margin-left: 30%;
+}
+
+.timeteble-existing-blocks>div{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.timeteble-existing-blocks>div:nth-child(even){
+    background: #cccc;
+}
+
+.timetable-content-button{
+    position: relative;
+    height: 60px;
+}
+
+.text-right .button-delete{
+    position: relative;
+}
+
+.checkboxes label>input{
+    display: block;
+}
+
+.button-delete{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.update-timetable button[type = "submit"]{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left: 0;
+}
+
+.image_thumb{
+    display: table;
+    width: 100%;
+}
+
+.attributes{
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.attr-elem>.col-xs-5{
+    display: flex;
+    flex-direction: column;
+}
+
+.attr-elem{
+    padding: 10px;
+}
+
+.attr-elem:nth-child(even){
+    background: #eef0f5;
+}
+
+.attr-elem:nth-child(odd){
+    background: rgb(220 219 234);
+}
+
+input.error{
+    border-color: #ff6d70;
+}
+
+.variations{
+    background: #c0c0c0;
+}
+
+.block-variation{
+    border: solid 1px #0a0a0a;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+
+.attributes-elems{
+    background: #ffffff;
+    padding: 10px;
+    margin: 10px 0 0 0;
+}
+
+.buttons{
+    margin-top: 5px;
+}
+
+.error-text{
+    color: #d9534f;
+    display: block;
+}
+
+.block-variation:nth-child(even){
+
+}
+
+.block-variation:nth-child(odd){
+
+}
+
+.elem{
+    padding: 20px;
+}
+.elem:nth-child(even){
+    background: #c0c0c0;
+}
+.elem:nth-child(odd){
+    background: #fafff5;
+}
+
+.at-site{
+    position: fixed;
+    right: 5px;
+    z-index: 1;
+    padding: 0px 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

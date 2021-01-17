@@ -1,0 +1,288 @@
+@media (max-width: 1200px) {
+    .product-page .btn i {
+        display: none;
+    }
+    .product-page .btn {
+        padding:6px 12px;
+    }
+    .header-links a {
+        padding:0 0 0 7px;
+    }
+    .topnav ul li a {
+        font-size:14px;
+    }
+    .topnav-right li a {
+        margin: 0 0 0 20px;
+    }
+    .topnav-left li a {
+        margin: 0 40px 0 0;
+    }
+    .shashlychok {
+        -webkit-background-size: 250px;
+        background-size: 250px;
+    }
+}
+
+@media (max-width: 991px) {
+    td.count, td.price, td.remove {
+        flex:0 0 30% !important;
+    }
+    tr.header {
+        display: none !important;
+    }
+    #msCart table tr {
+        display:flex;
+        flex-wrap:wrap;
+        align-items:center;
+        justify-content:space-between;
+    }
+    #msCart td {
+        border: none !important;
+    }
+    td.image, td.title {
+        width:100% !important;
+        flex: 0 0 100%;
+    }
+    td.count, td.price, td.remove {
+        width:30% !important;
+        flex:0 0 30%;
+    }
+
+    .page-top h1 {
+        width:100%;
+    }
+    .logo {
+        text-align: left;
+        width:auto;
+    }
+    .logo .phone {text-align: center;}
+    .schedule{display: none;}
+    .menu-trigger {
+        display: inline-block;
+        margin:24px 0 0 0;
+        color:#603407;
+        font-size:35px;
+    }
+    .mobile-menu {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width:85%;
+        padding:20px 0;
+        z-index:333 !important;
+        background: #603407 url(../img/mobile-menu.jpg) no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+        border-radius: 5px;
+    }
+    .mobile-menu ul {
+        list-style: none;
+        padding: 0;
+        margin:0;
+    }
+    .mobile-menu ul li a {
+        color:#fff;
+        font-size:22px;
+        display: block;
+        padding:15px 20px;
+        text-transform: uppercase;
+    }
+    .mobile-menu ul li a:hover, .mobile-menu ul li a:focus, .mobile-menu ul li a:active {
+        background: rgba(0,0,0,0.4);
+        text-decoration: none;
+        outline: none;
+    }
+    .menu-header {
+        font-size:36px;
+        font-weight: 300;
+        padding:10px 20px;
+        
+        text-transform: uppercase;
+        color:#fff;
+    }
+    .menu-close {
+        position: absolute;
+        top:35px;
+        right:20px;
+        height:24px;
+        width:24px;
+        padding:10px;
+        background: url(../img/icons/icon-close.png) no-repeat;
+    }
+    .logo-footer {display: none;}
+    .bottom {
+        height: auto;
+        -webkit-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        padding:10px 0;
+    }
+    .bottom .text-right {
+        text-align: center !important;
+    }
+}
+
+@media(max-width:800px) {
+    .popular-slider .slick-prev:before, .popular-slider .slick-next:before {
+        color: #5a5a5a;
+        font-size: 45px;
+    }
+    .popular-slider .slick-prev {
+        font-size:32px;
+        left:15px;
+        z-index:77;
+    }
+    .popular-slider .slick-next {
+        font-size:32px;
+        right:15px;
+        z-index:77;
+    }
+    .shashlychok {
+        display: none;
+    }
+}
+
+@media(max-width:768px) {
+    td.image, td.title, td.count, td.price, td.remove {
+        width:100% !important;
+        flex: 0 0 100%;
+    }
+    #msCart [name="ms2_action"]::before {
+        content:'Удалить ';
+        display: inline-block;
+        padding:0 5px 0 0;
+    }
+    .big-form input[type="text"] {
+        width:60%;
+    }
+    .features-main .item:hover {
+        cursor: pointer;
+        -webkit-transition: all 250ms ease-in-out;
+        -moz-transition: all 250ms ease-in-out;
+        -ms-transition: all 250ms ease-in-out;
+        -o-transition: all 250ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        -moz-transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -o-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+.feature
+    .page-top h1 {
+        font-size:18px;
+    }
+    .product-page .prices {
+        margin:20px 0 0 0;
+    }
+    .slider-main, .slider-main .slide  {
+        height:500px;
+    }
+    .slider-main .slide-content, .slider-main .slide-content .inner {
+        height:440px;
+    }
+    .slider-main .slick-next, .slider-main .slick-prev {
+        width: 42px;
+        height: 42px;
+        background-size: cover;
+    }
+    .offer {
+        height: auto;
+    }
+    .slider-main .slick-prev,  .slider-main .slick-next {
+        top:60%;
+    }
+    .footer ul {
+        margin:0 0 30px 0;
+    }
+    .popular-slider {
+        width:100%;
+        right:0;
+    }
+}
+
+@media(max-width:640px) {
+    td.price {
+        font-size:16px;
+    }
+    .header-links a i {
+        display: none;
+    }
+    .offer-title {
+        font-size:30px;
+        padding:0 10%;
+    }
+    .offer-text {
+        font-size:24px;
+        padding:0 10%;
+    }
+    .mobile-menu {
+        width:98%;
+    }
+    .mobile-menu ul li a {
+        color:#fff;
+        font-size:14px;
+        display: block;
+        padding:10px 15px;
+        text-transform: uppercase;
+    }
+    .mobile-menu ul li ul {
+        display: none !important;
+    }
+}
+@media(max-width:550px) {
+    .header-links a i {
+        display: inline-block;
+    }
+    .header-links span.linktext, .header-links .accent {
+        display: none;
+    }
+    .header-links a {
+        font-size:18px;
+        padding:10px;
+        margin:0;
+    }
+    .header-links {
+        margin:0;
+    }
+    .logo {
+        left: -60px;
+    }
+    .slider-main, .slider-main .slide, .slider-main .slide-content, .slider-main .slide-content .inner {
+        height:auto !important;
+    }
+    .slide-content {
+        padding:100px 0 150px 0;
+    }
+    .slider-main .slide-title {
+        font-size:20px;
+    }
+
+}
+
+@media(max-width:350px) {
+    td.remove {
+        flex:0 0 100% !important;
+        text-align: center;
+    }
+    td.count, td.price {
+        flex:0 0 48% !important
+    }
+    .logo a {
+        width: 155px;
+        height: 85px;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    .logo {
+        left:-10px;
+    }
+    .logo .phone {
+        display: none;
+    }
+    .content {
+        margin:10px 0 0 0;
+    }
+
+}
